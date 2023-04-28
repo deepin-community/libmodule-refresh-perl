@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.87.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+SHA256 406ab2dd7a971875c07d2172ec0de96ce1c7be1c5e496608e0ab93414fce886c Changes
+SHA256 c62549318f2e3c068c6421e87311eefd78583c266efa0a13a3d62b9870881b0a MANIFEST
+SHA256 e1c5ab5f657f1a32b07f8dfd701d6adddc2ba119bdbeae5065b19dcfac693c56 META.yml
+SHA256 4396a9a739b8bfb843afbb5daa0c8d3ad622ef8e9317ebc2be566030cdc153a5 Makefile.PL
+SHA256 67d139199c03b8bf8447a5a62f0d0b6dc1bd5bf6dbe04de6d21998c577823ed6 inc/Module/Install.pm
+SHA256 6ebcc53a161dd5dc0aae69e4704575f2b00181901d768a82e26722a309cfdbe4 inc/Module/Install/Base.pm
+SHA256 d3f8c839d03fd21c197d05362dbb277cd7cadb15da6390d124b61e851f15146e inc/Module/Install/Can.pm
+SHA256 e9e72e18921c10c87bc4ea4c20af83e52015b9f5775d00ac64073042403717ca inc/Module/Install/Fetch.pm
+SHA256 a7a681bf2c9eee58a372cb642ffe42b0301d1200432ba8de9f7791cd1ecc9827 inc/Module/Install/Makefile.pm
+SHA256 aa887fa65a5eb6bbd1805706ce298b3f3cd55b353ecfd37aa7d35ae419331a49 inc/Module/Install/Metadata.pm
+SHA256 26b166ff62aacdb55317d1659f160aa4935097eea9810ea980e6d747206b5dc0 inc/Module/Install/Win32.pm
+SHA256 5f73a6851a91ea44e65b924f918743ad6e860620ad7a38a39d0295e0c5652a9f inc/Module/Install/WriteAll.pm
+SHA256 0c5bafdf873c25e2072e60cac36ed4fc9f7faaa7398aae231decbfcd68c2a3d3 lib/Module/Refresh.pm
+SHA256 3b903ef9d449f1432f9defa83566408a41c043919d9eae2b470b6d7ee14368b7 t/0-smoke.t
+SHA256 9a0eed291f852ecdfdc41b9f19bfc386b4961f8238ff65cb147557b010a1a079 t/1api.t
+SHA256 922d56802cda9b5ee44e760a8714f74d03dfd6e5b2e6b618e2691db13e3382fc t/2lateuse.t
+SHA256 cc3ba9e8871775f7ecbe5e1a172fadf899bc3bb83f66e53dfeeca3d5b7ed41aa t/clear_symtable.t
+-----BEGIN PGP SIGNATURE-----
+
+iQEyBAEBCAAdFiEExJs3Lyv4ShkBFmAnDfCig/6sgLIFAmJ5bk0ACgkQDfCig/6s
+gLLVEAf4vyjjV6sD+0Wu7R+kmIXYHJV6VE/oWQHF8ORdl2pGVCB4CDYBGi9qPdbJ
+fjTyRW1gQCq4fP+sbsPBNNMBbhsj1fmGmmrTk+2lCjzcngTGQ7rmmUJ14soQAb11
+dOOx1cJ9ho/lH3A6s6PF+KN+Lh56I9CdMd9U/tMVnUzIeB5cniU5hdxVtGFUNIm6
+csVFaUcOzsqKdmHJ6H96Fe86FAIemyWAYVo06HtGbESERmc1FMP7245TIdl+QViS
+j6+mZur4iGUyhreriXT386ER1ybrfYob2DXbJtlr0WDq9+9wTb70aAA/S4JKE3JU
+6BiqjI55bnOEolwiCJN3g4VcSzjw
+=vzzN
+-----END PGP SIGNATURE-----
