@@ -1,5 +1,105 @@
-template-repository (1.0-1) unstable; urgency=medium
+libmodule-refresh-perl (0.18-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libmodule-refresh-perl: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Oct 2022 00:07:12 +0100
+
+libmodule-refresh-perl (0.18-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * debian/control: remove Nicholas Bamber from Uploaders on request of
+    the MIA team. Closes: #924990
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove AGOSTINI Yves from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from deprecated 7 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Add missing build dependency on libmodule-install-perl.
+  * Bump debhelper from old 12 to 13.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.18.
+  * Update copyright years for third-party files.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.6.1.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 12 May 2022 17:40:32 +0200
+
+libmodule-refresh-perl (0.17-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 14:08:25 +0100
+
+libmodule-refresh-perl (0.17-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Imported Upstream version 0.17
+  * Update copyright for included  Module::Install.
+    Update copyright years
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 12 Nov 2011 14:01:32 +0100
+
+libmodule-refresh-perl (0.16-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Nicholas Bamber ]
+  * Added myself and gregoa to Uploaders
+  * New upstream release
+  * Refreshed dependencies
+  * Raised debhelper version and compat level to 7,
+    refreshed debian/rules and removed quilt cruft
+  * Raised standards version to 3.9.2
+  * Removed unnecessary patch
+  * Refreshed copyright
+  * Refreshed short description
+  * Added debian/source/format
+  * Added libpath-class-perl as a build dependency
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Sun, 24 Apr 2011 00:25:45 +0100
+
+libmodule-refresh-perl (0.13-1) unstable; urgency=low
+
+  * Initial Release (Closes: #476744)
+
+ -- AGOSTINI Yves <agostini@univ-metz.fr>  Fri, 18 Apr 2008 23:34:53 +0200
